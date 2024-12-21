@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+
+        <p style="color: rgb(149, 0, 255);  font-family: cursive; font-size: 20px; text-shadow: 1px 1px  black;">Multiply every
+            number in array with 45</p>
+            
+        <p id="my" style="color: rgb(149, 0, 255);  font-family: cursive; font-size: 20px; text-shadow: 1px 1px  black;"></p>
+
+        
+
+        <script>
+            var numbers=[30,20,10,5,90];
+
+            function myfunction(num){
+               return num*45; 
+            }
+
+            var newarray = numbers.map(myfunction);
+             document.getElementById("my").innerHTML = newarray;
+
+
+        </script>
+    </body>
+</html>
